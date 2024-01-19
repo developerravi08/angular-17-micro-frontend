@@ -71,3 +71,5 @@
       // { path:'**', ...} needs to be the LAST one.
       ];
     \`\`\`
+
+![Working Project](ng-17-Micro-Frontend/src/assets/images/Ng17MicroFrontend.png)
