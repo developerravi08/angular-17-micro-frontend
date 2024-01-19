@@ -1,6 +1,8 @@
 
 ## Markdown to Create ng-17-Micro-Frontend Application
 
+![Working Project](ng-17-Micro-Frontend/src/assets/images/Ng17MicroFrontend.png)
+
 ### Steps to Create Micro Application
 
 1. Create Workspace MFA (Micro Frontend Application)
@@ -71,5 +73,3 @@
     \`\`\`
 
 ## Congratulations! Your app is a Micro app running. 🎉
-
-![Working Project](ng-17-Micro-Frontend/src/assets/images/Ng17MicroFrontend.png)
