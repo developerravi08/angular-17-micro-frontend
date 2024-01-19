@@ -1,15 +1,13 @@
 
-# Markdown to Create ng-17-Micro-Frontend Application
-
----
+## Markdown to Create ng-17-Micro-Frontend Application
 
 ### Steps to Create Micro Application
 
 1. Create Workspace MFA (Micro Frontend Application)
 
-2. Create two Projects in Workspace
+2. Create two Projects in the Workspace
 
-3. Create Apllication in Angular 17
+3. Create an application in Angular 17
 
     \`\`\`typescript
     ng new ng-17-Micro-Frontend;
@@ -19,7 +17,7 @@
     ng new ng-17-Micro1;
     \`\`\`
 
-4. Native Federation package in both porject;
+4. Native Federation package in both projects;
 
     \`\`\`typescript
     npm i @angular-architects/native-federation -D
@@ -37,14 +35,14 @@
     ng g @angular-architects/native-federation:init --project mfe1 --port 4201 --type remote
     \`\`\`
 
-7. run both porject
+7. run both projects
 
     \`\`\`typescript
       ng serve -o
       ng serve -o
     \`\`\`
 
-8. upadte routing file of ng-17-Micro-Frontend app
+8. update routing file of ng-17-Micro-Frontend app
 
     \`\`\`typescript
 
@@ -71,5 +69,7 @@
       // { path:'**', ...} needs to be the LAST one.
       ];
     \`\`\`
+
+## Congratulations! Your app is a Micro app running. 🎉
 
 ![Working Project](ng-17-Micro-Frontend/src/assets/images/Ng17MicroFrontend.png)
